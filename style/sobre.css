@@ -1,0 +1,12 @@
+.interna_sobre {
+    background: url("/images/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.qualidade {
+    padding-top: 60px;
+}
+
+.foto_equipe {
+    padding-top: 20px;
+}

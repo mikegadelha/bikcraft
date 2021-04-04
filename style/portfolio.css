@@ -1,0 +1,32 @@
+.interna_portfolio {
+    background: url("/images/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.quote_portfolio {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.grid-16 p {
+    width: 540px;
+    height: auto;
+    margin: 10px auto 10px auto;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.grid-16 cite {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+div.bg-portfolio.resp {
+    height: auto;
+    padding: 60px 0px 60px 0px;
+}

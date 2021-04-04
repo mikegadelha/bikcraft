@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Bikcraft - Conheça nossos Produtos</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Seguindo as aulas do curso de Web Design da Origamid e improvisando em algumas partes.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Open Graph-->
+    <meta property ="og:type" content="">
+    <meta property ="og:title" content="">
+    <meta property ="og:description" content="">
+    <meta property ="og:url" content="">
+    <meta property ="og:image" content="">
+    <!--Fecha Open Graph-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/grid.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/produtos.css">
+    <link rel="stylesheet" href="style/responsivo.css">
+    -->
+    <link rel="stylesheet" href="style.css">
+    <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="/images/bikcraft-logo.svg" alt="Bikcraft Logo">
+            </a>
+            <nav class="header_menu grid-12">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Fecha Header-->
+    <section class="intro-interna interna_produtos">
+        <div class="container">
+            <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+                <p data-anime="800" class="fadeInDown">conheça nossos produtos</p>
+        </div>
+    </section>
+    <!--Fecha Introdução Interna-->
+    <section data-anime="800" class="bg-produtos fadeInDown">
+        <div class="bg-produtos1">
+            <div class="container">
+                <div class="grid-11">
+                    <img src="images/bg-passeio1.jpg" alt="Bikcraft Passeio">
+                    <h2>Passeio</h2>
+                </div>
+                <div class="grid-5 produto_icone">
+                    <img src="images/passeio.svg" alt="Bikcraft Passeio Icone">
+                </div>
+                <div class="grid-8 espaçamento">
+                    <img src="images/bg-passeio2.jpg" alt="Bikcraft Passeio">
+                </div>
+                <div class="grid-8 produto_quote">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <ul class="produto_info">
+                            <li>Conforto</li>
+                            <li>Qualidade</li>
+                            <li>Design</li>
+                            <li>Versatilidade</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-produtos2">
+            <div class="container">
+                <div class="grid-11">
+                    <img src="images/bg-esporte1.jpg" alt="Bikcraft Esporte">
+                    <h2>Esporte</h2>
+                </div>
+                <div class="grid-5 produto_icone">
+                    <img src="images/esporte.svg" alt="Bikcraft Esporte Icone">
+                </div>
+                <div class="grid-8 espaçamento">
+                    <img src="images/bg-esporte2.jpg" alt="Bikcraft Esporte">
+                </div>
+                <div class="grid-8 produto_quote">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <ul class="produto_info">
+                            <li>Conforto</li>
+                            <li>Qualidade</li>
+                            <li>Design</li>
+                            <li>Versatilidade</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-produtos3">
+            <div class="container">
+                <div class="grid-11">
+                    <img src="images/bg-retro1.jpg" alt="Bikcraft Retrô">
+                    <h2>Retrô</h2>
+                </div>
+                <div class="grid-5 produto_icone">
+                    <img src="images/retro.svg" alt="Bikcraft Retrô Icone">
+                </div>
+                <div class="grid-8 espaçamento">
+                    <img src="images/bg-retro2.jpg" alt="Bikcraft Retrô">
+                </div>
+                <div class="grid-8 produto_quote">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <ul class="produto_info">
+                            <li>Conforto</li>
+                            <li>Qualidade</li>
+                            <li>Design</li>
+                            <li>Versatilidade</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fecha Produtos-->
+    <section class="bg-contato form_produtos">
+        <div class="intro-interna">
+            <h1>Solicite um Orçamento</h1>
+        </div>
+        <div class="container">
+            <div class="formulario form_produtos">
+                <form id="formulario_contato" method="POST" action="enviar-sendgrid.php" class="formphp">
+                    <label for="name">*Nome:
+                        <input type="text" name="name" id="name" required>
+                    </label>
+                    <label for="email">*E-mail:
+                        <input type="email" name="email" id="email" required>
+                    </label>
+                    <label for="telefone">Telefone:
+                        <input type="tel" name="telefone" id="telefone"> <!--como só permitir números e em um formato válido? por ex. 11 9 9999-9999-->
+                    </label>
+                    <!--Anti-Spam-->
+                    <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                    <input type="text" class="nao-aparece" name="leaveblank">
+                    <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                    <input type="text" class="nao-aparece" name="dontchange" value="http://">
+                    <!--Fecha Anti-Spam-->
+                    <label for="msg">*Deixe uma mensagem:</label>
+                    <textarea name="msg" id="msg" required></textarea>
+                    <input type="submit" name="submit" id="submit" value="enviar" class="form_produtos">
+                </form>
+            </div>
+            <div class="contato form_produtos">
+                <h2>Entre em contato</h2>
+                <p>+55 11 9 9999-9999</p>
+                <h2>ou</h2>
+                <p>orçamento@bikcraft.com</p>
+                <h3>Rua Virando a Esquina, 123 - Cracolândia</h3>
+                <h3> São Paulo - SP - Brasil</h3>
+                <a href="https://www.google.com.br"><img src="/images/mapa.jpg" alt="Localização"></a>
+            </div>
+        </div>
+    </section>
+    <!--Fecha Formulário-->
+    <div class="quebra container">
+        <blockquote class="quote-externo"> <!--o professor colocou o container aqui-->
+            <p>"o verdadeiro segredo da felicidade está em ter um genúino 
+                interesse  por todos os detalhes da vida cotidiana"</p>
+            <cite>William Morris</cite>
+        </blockquote>
+    </div>
+    <!--Fecha Quebra-->
+    <footer> 
+        <div class="footer"> 
+            <div class="container">
+                <div class="grid-8 footer_historia">
+                    <h3>Nossa História</h3>
+                    <p>Eu tenho só quatro anos, todo dia crescendo, Xeretando sou Caillou</p>
+                    <p>Coisas novas para fazer, todo dia brincar, Aprendendo sou Caillou</p>
+                    <p>hehe sou eu!</p>
+                </div>
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>tel: +11 9 9999-9999</li>
+                        <li>email: contato@bikcraft.com</li>
+                    </ul>
+                </div>
+                <div class="grid-4 footer_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li class="redes"><a href="https://facebook.com" target="_blank"><img src="/images/facebook.svg" alt="Facebook"></a></li>
+                        <li class="redes"><a href="https://instagram.com" target="_blank"><img src="/images/instagram.svg" alt="Instagram"></a></li>
+                        <li class="redes"><a href="https://twitter.com" target="_blank"><img src="/images/twitter.svg" alt="Twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <p class="teste1">Bikcraft 2021 - Alguns direitos reservados.</p>
+                <p class="teste2">Layout copiado por @mikegadelha</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/simple-anime.js"></script>
+    <script src="scripts/simple-form.js"></script>
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>

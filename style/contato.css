@@ -1,0 +1,90 @@
+.interna_contato {
+    background: url("/images/bg-contato.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.bg-contato {
+    width: 100%;
+    background-color: #FFF;
+}
+
+.formulario {
+    width: 400px;
+    font-size: 24px;
+    line-height: 45px;
+    float: left;
+    margin: 30px 0;
+    color: #FEC63E;
+}
+
+.formulario input, .formulario textarea {
+    border: 4px solid #FEC63E;
+    width: 100%;
+    color: #D9E0E6;
+    display: block;
+}
+
+.formulario textarea {
+    height: 140px;
+}
+
+.formulario label input, .formulario textarea {
+    background-color: #FFF;
+}
+
+.formulario label, .contato h2 {
+    color: #484B4D
+}
+
+#submit {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    background-color: #FFF;
+    color: #FEC63E;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px; /*sei que poderia ter agrupado todos em um só margin mas assim posso consultar futuramente e ficar mais fácil antes de calejar o aprendizado de vez*/
+    margin-left: auto;
+    padding: 0 10px 30px 10px;
+}
+
+#submit:hover {
+    border: 4px solid #484B4D;
+    color: #484B4D;
+}
+
+.contato {
+    width: 400px;
+    margin-top: 38px;
+    margin-left: 150px;
+    margin-right: 10px;
+    float: left;
+    color: #FEC63E;
+}
+
+.contato h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.contato p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 5px 0 10px 0;
+}
+
+.contato h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.contato img {
+    border: 0px solid #FEC63E; /*coloquei em 0px pois a imagem que eu coloquei no site já tinha borda, deixei aqui só por questão de lembrar que se a imagem precisar de borda, dá pra colocar*/
+    margin-top: 11px;
+}
