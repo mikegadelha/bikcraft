@@ -133,19 +133,21 @@
 	/*Orçamento*/
 
 	.bg-contato {
-		height: 700px;
+		height: auto;
 	}
 	
-	.formulario {
-		width: 350px;
-		margin-left: 15px;
-	}
 	
 	.formulario textarea {
 		height: 200px;
 	}
 	
-	.contato {
+
+	.formulario.form_produtos {
+		width: 350px;
+		margin-left: 15px;
+	}
+	
+	.contato.form_produtos {
 		width: 350px;
 		margin-top: 75px;
 		margin-left: 30px;
@@ -484,14 +486,14 @@
 		padding: 0px;
 	}
 
-	.formulario {
+	.formulario.form_produtos {
 		width: 100%;
 		height: auto;
 		margin: 0 auto;
 		padding: 0px;
 	}
 	
-	.contato {
+	.contato.form_produtos {
 		width: 100%;
 		margin: 30px auto 30px auto;
 		padding: 0px;
